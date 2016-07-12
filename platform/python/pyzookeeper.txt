@@ -1,0 +1,42 @@
+linux下安装 zkpython:
+
+前提是zookeeper安装包已经在/usr/local/zookeeper下
+
+cd /usr/local/zookeeper/src/c
+
+./configure
+
+make
+
+make install
+
+
+
+安装python依赖包:
+
+yum install python-devel   或者   apt-get install python-dev
+
+
+
+下载 zkpython：easy_install zkpython  
+
+或者如下：
+
+wget --no-check-certificate http://pypi.python.org/packages/source/z/zkpython/zkpython-0.4.tar.gz
+
+tar -zxvf zkpython-0.4.tar.gz
+cd zkpython
+
+cd zkpython-0.4
+
+sudo python setup.py install
+
+
+
+然后打开
+
+vim /etc/ld.so.conf
+
+添加一句：  /usr/local/lib
+
+执行：ldconfig
