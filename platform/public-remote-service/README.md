@@ -1,7 +1,7 @@
 # thrift
-1.simple £¬Ê¹ÓÃÁ¬½Ó³Ø£¬  µ«ÊÇÎŞ·¨ÇĞ»·¾³
+1.simple ï¼Œä½¿ç”¨è¿æ¥æ± ï¼Œ  ä½†æ˜¯æ— æ³•åˆ‡ç¯å¢ƒ
 
-2.»ùÓÚzookeeper,Á¬½Ó³ØµÄthrift¹¤³Ì£¬ÉÏÏß¿ÉÇĞ»·¾³¡£ Ö§³Ö javaÏµÍ³±äÁ¿»¹°ó»·¾³
-ĞèÒªÅäÖÃ zk.properties
+2.åŸºäºzookeeper,è¿æ¥æ± çš„thriftå·¥ç¨‹ï¼Œä¸Šçº¿å¯åˆ‡ç¯å¢ƒã€‚ æ”¯æŒ javaç³»ç»Ÿå˜é‡è¿˜ç»‘ç¯å¢ƒ
+éœ€è¦é…ç½® zk.properties
 
-Ö´ĞĞ  python xoa_tool.py  com.rr.publik.service create localhost:9301  ´´½¨½Úµã
+æ‰§è¡Œ  python xoa_tool.py  com.rr.publik.service create localhost:9301  åˆ›å»ºèŠ‚ç‚¹

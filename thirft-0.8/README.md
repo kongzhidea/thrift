@@ -1,2 +1,2 @@
 # thrift
-thrift ±àÒëÆ÷
+thrift ç¼–è¯‘å™¨

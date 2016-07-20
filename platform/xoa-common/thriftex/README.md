@@ -1,6 +1,6 @@
 # thrift
 
-xoa ·şÎñ¶Ë Í¨ÓÃ´òÓ¡ËùÓĞÇëÇó¡£
+xoa æœåŠ¡ç«¯ é€šç”¨æ‰“å°æ‰€æœ‰è¯·æ±‚ã€‚
 
     @Override
     protected TProcessor createProcessor() {

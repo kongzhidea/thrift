@@ -1,8 +1,8 @@
 # thrift
-xoaÍ¨ÓÃ¿Í»§¶Ë£¬
+xoaé€šç”¨å®¢æˆ·ç«¯ï¼Œ
 
 
-xoa-client  Í¨ÓÃ¿Í»§¶Ë
+xoa-client  é€šç”¨å®¢æˆ·ç«¯
 
 API:
 
@@ -15,7 +15,7 @@ public interface IGameService extends GameService.Iface {
 
 
 
-µ÷ÓÃÑùÀı:
+è°ƒç”¨æ ·ä¾‹:
 
 package com.kk.xoa.test;
 
@@ -84,15 +84,15 @@ class Task implements Runnable {
 
 
 
-Note£º
+Noteï¼š
 
-È±ÉÙserverÈİÆ÷
+ç¼ºå°‘serverå®¹å™¨
 
 
 
-³õÊ¼»¯zookeeperÊ±ºò£¬  zookeeperºÍnetflix jar°ü°æ±¾Ì«µÍ£¬»áµ¼ÖÂ getClient()Ê±ºò£¬³õÊ¼»¯±È½ÏÂı£¬ĞèÒªµÈ5s×óÓÒ£¬
+åˆå§‹åŒ–zookeeperæ—¶å€™ï¼Œ  zookeeperå’Œnetflix jaråŒ…ç‰ˆæœ¬å¤ªä½ï¼Œä¼šå¯¼è‡´ getClient()æ—¶å€™ï¼Œåˆå§‹åŒ–æ¯”è¾ƒæ…¢ï¼Œéœ€è¦ç­‰5så·¦å³ï¼Œ
 
-ĞŞ¸´·½·¨£ºÊ¹ÓÃĞÂ°æ±¾ jar°ü£¬Óëzk°æ±¾Ò»ÖÂ£¬ class°üÃûÓĞĞŞ¸Ä¡£ ÁíÍâ£¬Ê¹ÓÃÊ±ºò path±ØĞë ÒÔ"/"¿ªÍ·¡£
+ä¿®å¤æ–¹æ³•ï¼šä½¿ç”¨æ–°ç‰ˆæœ¬ jaråŒ…ï¼Œä¸zkç‰ˆæœ¬ä¸€è‡´ï¼Œ classåŒ…åæœ‰ä¿®æ”¹ã€‚ å¦å¤–ï¼Œä½¿ç”¨æ—¶å€™ pathå¿…é¡» ä»¥"/"å¼€å¤´ã€‚
 
 
 
@@ -110,10 +110,10 @@ Note£º
 
 
 
-ĞèÒª×¢ÒâµØ·½£º
+éœ€è¦æ³¨æ„åœ°æ–¹ï¼š
 
- maven-thrift-plugin  °æ±¾ĞŞ¸Ä Îª  0.1.11
+ maven-thrift-plugin  ç‰ˆæœ¬ä¿®æ”¹ ä¸º  0.1.11
 
 
 
-2. Èç¹ûÏîÄ¿ÒıÈëÁËhttpclient£¬×¢Òâ°æ±¾£¬httpcore.jar  4.2.1ºÍ4.1.3 ²»¼æÈİ£¬ ĞèÒª°Ñ4.1.3µÄÈ¥µô¡£
+2. å¦‚æœé¡¹ç›®å¼•å…¥äº†httpclientï¼Œæ³¨æ„ç‰ˆæœ¬ï¼Œhttpcore.jar  4.2.1å’Œ4.1.3 ä¸å…¼å®¹ï¼Œ éœ€è¦æŠŠ4.1.3çš„å»æ‰ã€‚
