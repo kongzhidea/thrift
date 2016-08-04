@@ -1,23 +1,23 @@
 # thrift
-xoa通用客户端，
+#### xoa通用客户端，
 
-需要配置zk.properties
+#### 需要配置zk.properties
 
-xoa-client  通用客户端
+#### xoa-client  通用客户端
 
 API:
-
+```
 @XoaService("com.rr.publik.service")
 public interface IGameService extends GameService.Iface {
 
 }
-
+```
 
 
 
 
 调用样例:
-
+```
 package com.kk.xoa.test;
 
 import com.rr.publik.api.IGameService;
@@ -79,24 +79,19 @@ class Task implements Runnable {
 
     }
 }
+```
 
 
 
 
 
-
-Note：
-
-缺少server容器
-
-
-
-初始化zookeeper时候，  zookeeper和netflix jar包版本太低，会导致 getClient()时候，初始化比较慢，需要等5s左右，
-
-修复方法：使用新版本 jar包，与zk版本一致， class包名有修改。 另外，使用时候 path必须 以"/"开头。
+#### Note：
+* 缺少server容器
+* 初始化zookeeper时候，  zookeeper和netflix jar包版本太低，会导致 getClient()时候，初始化比较慢，需要等5s左右，
+* 修复方法：使用新版本 jar包，与zk版本一致， class包名有修改。 另外，使用时候 path必须 以"/"开头。
 
 
-
+```
 <dependency>
    <groupId>org.apache.zookeeper</groupId>
    <artifactId>zookeeper</artifactId>
@@ -107,14 +102,10 @@ Note：
    <artifactId>curator-framework</artifactId>
    <version>2.9.0</version>
 </dependency>
+```
 
 
 
-
-需要注意地方：
-
- maven-thrift-plugin  版本修改 为  0.1.11
-
-
-
-2. 如果项目引入了httpclient，注意版本，httpcore.jar  4.2.1和4.1.3 不兼容， 需要把4.1.3的去掉。
+#### 需要注意地方：
+* maven-thrift-plugin  版本修改 为  0.1.11
+* 如果项目引入了httpclient，注意版本，httpcore.jar  4.2.1和4.1.3 不兼容， 需要把4.1.3的去掉。
