@@ -16,6 +16,8 @@
 > 服务端采用 THsHaServer， 序列化方式采用TCompactProtocol。
 > 
 > 服务端对service通过spring的切面编程，采用perf4j 将每个请求以及一段时间内请求进行性能监控。
+> 
+> 服务端可以获取客户端的连接ip，可以根据业务需求，添加ip访问白名单。
 
 
 
