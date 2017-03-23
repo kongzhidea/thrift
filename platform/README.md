@@ -14,6 +14,8 @@
 > 上线时候，首先需要切环境，将zk中enable节点 迁移到disable节点中，disable节点仅做一个备份的作用，服务中不会从disable节点中取数据；  将zk中enable节点删除一个后，客户端在负载均衡时候不会再处理此节点，此时可以将此节点对应的服务上线，上线结束后 在从disable节点 迁移到enable节点，该节点上线完成，其他节点以此类推。
 > 
 > 服务端采用 THsHaServer， 序列化方式采用TCompactProtocol。
+> 
+> 服务端对service通过cglib进行切面，采用perf4j 将每个请求以及一段时间内请求耗时打印。
 
 
 
