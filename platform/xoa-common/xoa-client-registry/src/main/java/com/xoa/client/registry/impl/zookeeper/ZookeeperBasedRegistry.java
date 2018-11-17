@@ -4,9 +4,7 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.regex.Pattern;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import com.xoa.client.registry.Node;
 import com.xoa.client.registry.Service;
 import com.xoa.client.registry.impl.AbstractXoaRegistry;
