@@ -22,6 +22,7 @@ then
     exit 1
 fi
 
+# jdk1.8 需要换成元空间
 JAVA_OPTS="-Xms400m -Xmx400m -Xss256k -XX:PermSize=112m -XX:MaxPermSize=112m";
 JAVA_OPTS="$JAVA_OPTS -verbose:gc"
 JAVA_OPTS="$JAVA_OPTS -XX:+PrintGCTimeStamps"
