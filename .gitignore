@@ -34,3 +34,4 @@ classes
 *.war
 maven-archiver
 generated-sources
+maven-status

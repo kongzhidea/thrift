@@ -5,10 +5,10 @@ import com.rr.publik.client.zk.pool.ZookeeperService;
 public class ZKTest {
 	public static void main(String[] args) {
 
-		ZookeeperService.getInstance().regWatcherOnLineRserver();
+//		ZookeeperService.getInstance().regWatcherOnLineRserver();
 		try {
 			ZookeeperService.getInstance().addNode(
-					ZookeeperService.ENABLE_PATH, "10.2.45.39:9301", true);
+					ZookeeperService.ENABLE_PATH, "localhost:9301", true);
 //			ZookeeperService.getInstance().deleteNode(
 //					ZookeeperService.ENABLE_PATH, "10.2.45.39:9301", true);
 			// ZookeeperService.getInstance().updateState("10.2.45.39:9301");

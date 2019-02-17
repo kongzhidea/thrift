@@ -101,7 +101,7 @@ public class GameServiceClientPool implements GameService.Iface {
 	/**
 	 * 增加错误次数
 	 * 
-	 * @param connection
+	 * @param identity
 	 */
 	private void increErrorCount(String identity) {
 		errorIdentityCount.put(identity, errorIdentityCount
